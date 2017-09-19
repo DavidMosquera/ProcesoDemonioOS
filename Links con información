@@ -1,2 +1,7 @@
-Demonio en PHP linux: https://www.scalescale.com/tips/nginx/create-linux-daemon-service/
+Tutorial para crear demonio en C junto con la captura de eventos:
 
+https://medium.com/jmtorres/servicios-y-demonios-en-linux-a424366336ac
+
+Ejemplo para crear Hilos En C:
+
+http://www.chuidiang.org/clinux/procesos/procesoshilos.php
