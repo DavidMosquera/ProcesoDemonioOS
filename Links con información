@@ -1,6 +1,9 @@
 Link para ver la informacion de client.c y server.c:
 http://www.linuxhowtos.org/C_C++/socket.htm
 
+Pagina con algunos ejemplos del uso de Inotify, que según leo permite detectar eventos relacionados con archivos
+https://www.ibm.com/developerworks/library/l-inotify/index.html
+
 
 Tutorial para crear demonio en C junto con la captura de eventos:
 
