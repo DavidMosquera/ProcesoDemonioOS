@@ -1,0 +1,69 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <conio.h> 
+
+
+int comprobacion() 
+
+{ 
+	FILE *pf; 
+	
+	pf = fopen("daemon.txt","r");
+	if(pf==NULL)
+	{
+		printf("no existe el archivo ");
+		
+		
+	}
+	else{
+		printf("\nexiste el archivo");
+		
+		
+	}
+	return 0;
+	fclose(pf);
+	
+} 
+int creacion() 
+
+{ 
+	FILE*pn;
+	pn=fopen("daemon.txt","w");
+	if(pn!=NULL)
+	{
+		printf("\nse creo");
+		
+	}
+	
+
+	fclose(pn);
+	return 0;
+} 
+
+int mover()
+{
+	system("copy C:\\dir1\\daemon.txt C:\\dir2");
+	printf("se movio");
+	system("PAUSE");
+	return 0;
+}
+int borrar()/*el borrado no da :V*/
+{
+	system("del C:\\dir1\\daemon.txt ");
+	printf("se borro");
+	return 0;
+	
+    
+}
+
+
+
+
+int main (){
+	creacion();
+	comprobacion();
+	mover();
+	borrar();
+	
+	
+}
