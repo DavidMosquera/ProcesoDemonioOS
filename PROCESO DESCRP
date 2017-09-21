@@ -1,0 +1,34 @@
+DIRECCIONES NECESARIAS 
+
+1. PARA LA CREACIÓN DE ARCHIVOS Y LOS EVENTOS
+
+localización del file.txt
+
+/usr/src/HistorialChat/file.txt
+
+localización del file.txt extraído de la aplicación 
+
+/usr/local/etc
+
+2. COMANDOS PARA EL SCRIPT
+
+chmod 755 /usr/bin/myscript
+systemctl enable myscript.service
+systemctl status myscript.service
+systemctl start myscript.service
+systemctl stop myscript.service
+
+3. COMANDO PARA EJECUCIÓN DEL COMPILADO
+
+gcc demon.c -o demon -pthread
+
+gcc RobotChat.c -c Robot
+
+./demon
+./Robot
+
+4. Localización del demonio y SCRIP
+
+demonio : /usr/bin/demon (Como super usuario)
+
+SCRIPT : /etc/systemd/system/demon2.service (Como super usuario)
